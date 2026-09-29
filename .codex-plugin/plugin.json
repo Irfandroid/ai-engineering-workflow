@@ -1,0 +1,18 @@
+{
+  "name": "ai-engineering-workflow",
+  "version": "0.1.0+codex.20260929130214",
+  "description": "Turn vague software requests into clarified, specified, ticketed, implemented, verified, and documented engineering work.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI Engineering Workflow",
+    "shortDescription": "Clarify, specify, implement, verify, document.",
+    "longDescription": "A disciplined workflow for turning ambiguous software ideas into small, testable implementation tickets without premature coding or false completion.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use the AI engineering workflow to clarify, specify, plan, implement, verify, and document this request."
+  }
+}
