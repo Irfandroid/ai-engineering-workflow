@@ -14,6 +14,30 @@ Plugin ini tersedia melalui marketplace personal Codex. Setelah terpasang, buka 
 $ai-engineering-workflow
 ```
 
+### Codex, Claude Code, dan agent lain
+
+Installer npm menyalin `SKILL.md` ke direktori skill pengguna. Default memasang ke Codex dan Claude Code sekaligus:
+
+```bash
+npx qalbu-ai-engineering-workflow
+```
+
+Jika package npm belum dipublikasikan, jalankan langsung dari GitHub:
+
+```bash
+npx github:Irfandroid/ai-engineering-workflow
+```
+
+Target tertentu:
+
+```bash
+npx qalbu-ai-engineering-workflow --target codex
+npx qalbu-ai-engineering-workflow --target claude
+npx qalbu-ai-engineering-workflow --target codex,claude --force
+```
+
+Installer tidak mengirim data ke luar, tidak membutuhkan dependency tambahan, dan tidak menimpa skill berbeda kecuali `--force` digunakan.
+
 Contoh:
 
 ```text

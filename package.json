@@ -1,0 +1,28 @@
+{
+  "name": "qalbu-ai-engineering-workflow",
+  "version": "0.1.0",
+  "description": "Portable AI engineering workflow skill for Codex, Claude Code, and compatible agents.",
+  "type": "module",
+  "bin": {
+    "qalbu-ai-engineering-workflow": "bin/install.mjs"
+  },
+  "scripts": {
+    "check": "node bin/install.mjs --target codex,claude --dry-run"
+  },
+  "files": [
+    ".codex-plugin",
+    "bin",
+    "docs",
+    "skills",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Irfandroid/ai-engineering-workflow.git"
+  },
+  "homepage": "https://github.com/Irfandroid/ai-engineering-workflow",
+  "license": "MIT"
+}
