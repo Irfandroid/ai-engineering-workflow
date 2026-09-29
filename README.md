@@ -42,8 +42,8 @@ Skill ini menjaga scope tetap kecil, menghindari asumsi tersembunyi, dan tidak m
 ## Validasi lokal
 
 ```powershell
-python C:\Users\SEKOM\.codex\skills\.system\plugin-creator\scripts\validate_plugin.py .
-python C:\Users\SEKOM\.codex\skills\.system\skill-creator\scripts\quick_validate.py .\skills\ai-engineering-workflow
+python <codex-skill-root>/plugin-creator/scripts/validate_plugin.py .
+python <codex-skill-root>/skill-creator/scripts/quick_validate.py .\skills\ai-engineering-workflow
 ```
 
 ## Prinsip
